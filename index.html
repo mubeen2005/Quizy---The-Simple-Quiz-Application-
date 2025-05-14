@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy - The Simple Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="background">
+            <video src="backgound.mp4" autoplay muted></video>
+        </div>
+        <div class="start-btn">
+            <input type="text" class="username" name="name" required placeholder="Enter name...">
+            <button onclick="startGame()">Start</button>
+            <button id="history" onclick="gethistory()">Score History</button>
+            <div class="logo">Quizy</div>
+        </div>
+        <div class="container">
+            <div class="question-section">
+                <h2>Simple Quiz</h2>
+                <p class="question">Question goes here....</p>
+                <div class="option">
+                    <div class="option-btn">Option 1</div>
+                    <div class="option-btn">Option 2</div>
+                    <div class="option-btn">Option 3</div>
+                    <div class="option-btn">Option 4</div>
+                </div>
+                <div class="btn">
+                    <button onclick="nextQuestion()">Next Question</button>
+                </div>
+            </div>
+            <div class="score">
+                <h2>Quiz Completed!</h2>
+                <p class="user-name">mubeen</p>
+                <p class="points">Your Score</p>
+                <button onclick="showStarPage()"
+                    style="padding:8px 12px; border:none; background-color:#58E481; border-radius:10px">Restart</button>
+            </div>
+        </div>
+
+        <div class="history-container">
+            <h1>Score Histrory</h1>
+            <div class="table">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody class="history-table">
+                        <!-- Rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
+            <button onclick="backToHome()">Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
