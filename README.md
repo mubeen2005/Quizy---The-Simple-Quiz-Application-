@@ -6,8 +6,8 @@ An interactive **Quiz App** built with vanilla **HTML**, **CSS**, and **JavaScri
 
 ## 🌐 Live Demo
 
-🔗 [Play the Quiz Now](https://your-live-demo-link.com)  
-*(Replace this with your actual deployed GitHub Pages URL)*
+🔗 [Play the Quiz Now]( https://mubeen2005.github.io/Quizy---The-Simple-Quiz-Application-/)  
+
 
 ---
 
@@ -37,6 +37,4 @@ An interactive **Quiz App** built with vanilla **HTML**, **CSS**, and **JavaScri
 - 📱 Mobile-responsive design
 - 🎯 Instant result display with correct/incorrect highlights
 
----
 
-##
